@@ -7,8 +7,8 @@ import webbrowser
 import time
 import threading
 
-author = "Luka Jovanovic"
-author_url = 'https://scholar.google.com/citations?user=ekc2hUoAAAAJ&hl=en'
+author = "Author Name"
+author_url = 'https://scholar.google.com/citations?user=' #author google shcolar URL
 
 def get_citation_data(author_url):
     headers = {
